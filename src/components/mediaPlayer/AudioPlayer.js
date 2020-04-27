@@ -3,7 +3,7 @@ import ReactPlayer from "react-player";
 import { withTranslation } from "react-i18next";
 import classNames from "classnames";
 
-import coverImage from "assets/images/base/music.jpg";
+//import coverImage from "assets/images/base/music.jpg";
 
 import Duration from "./duration";
 import Timeline from "./timeline";
@@ -12,7 +12,7 @@ import Volume from "./volume";
 import "./styles/player.scss";
 
 const Icons = {
-    play: <svg xmlns="http://www.w3.org/2000/svg" width="42" height="42" viewBox="0 0 42 42"><path d="M16,12V30l7-4.5L30,21l-7-4.5ZM21,0A21,21,0,1,0,42,21,21,21,0,0,0,21,0Zm0,41A20,20,0,1,1,41,21,20.023,20.023,0,0,1,21,41Z"></path></svg>,
+    play: <svg xmlns="http://www.w3.org/2000/svg" width="42" height="42" viewBox="0 0 42 42" color="#fffff"><path d="M16,12V30l7-4.5L30,21l-7-4.5ZM21,0A21,21,0,1,0,42,21,21,21,0,0,0,21,0Zm0,41A20,20,0,1,1,41,21,20.023,20.023,0,0,1,21,41Z"></path></svg>,
     pause: <svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="42" height="42" viewBox="0 0 42 42" ><path d="M21,0C9.4,0,0,9.4,0,21s9.4,21,21,21s21-9.4,21-21S32.6,0,21,0z M21,41C10,41,1,32,1,21S10,1,21,1s20,9,20,20 C41,32,32,41,21,41z M14,30h4V12h-4C14,12,14,30,14,30z M24,30h4V12h-4V30z"></path></svg>,
     previous: <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" viewBox="0 0 26 26"><path d="M10,13.625L13,15.5,17,18V8l-4,2.5-3,1.875V8H9V18h1V13.625ZM13,26A13,13,0,1,0,0,13,13,13,0,0,0,13,26ZM13,1A12,12,0,1,1,1,13,12.014,12.014,0,0,1,13,1Z"></path></svg>,
     next: <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" viewBox="0 0 26 26"><path d="M16,12.375L13,10.5,9,8V18l4-2.5,3-1.875V18h1V8H16v4.373ZM13,0A13,13,0,1,0,26,13,13,13,0,0,0,13,0Zm0,25A12,12,0,1,1,25,13,12.014,12.014,0,0,1,13,25Z"></path></svg>,
@@ -211,11 +211,11 @@ class AudioPlayer extends Component {
                     onProgress={this.handleProgress}
                     onDuration={this.handleDuration}
                 />
-                <div className="cover-wrapper">
+                {/* <div className="cover-wrapper">
                     <div className="cover-image">
                         <img src={coverImage} alt="" className="album-cover" />
                     </div>
-                </div>
+                </div> */}
                 <div className="control-wrapper">
                     <div className="title-wrapper">
                         <div className="track-name">{currentTrack[currentLang] && currentTrack[currentLang].trackName}</div>

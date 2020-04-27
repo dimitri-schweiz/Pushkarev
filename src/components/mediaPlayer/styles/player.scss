@@ -1,14 +1,15 @@
 @import '../../../themes/styles/variables';
 
 .audio-player {
-    border: 1px solid #222;
+    border: 1px solid rgb(236, 37, 37);
     padding: 20px;
     padding-bottom: 5px;
+    margin-top: 20px;
 
     .title-wrapper {
         padding: 1.5rem 0;
         text-align: center;
-        color: #222;
+        color: $text-color;
     }
 
     .track-name {
@@ -63,8 +64,13 @@
         align-items: center;
         margin: 24px 0;
         padding-right: 45px;
+        
 
         @include respond(sm) {
+            padding: 0;
+        }
+
+        @include respond(md) {
             padding: 0;
         }
 
@@ -74,6 +80,7 @@
 
         svg {
             cursor: pointer;
+            fill: $link-active-color;
         }
     }
 
