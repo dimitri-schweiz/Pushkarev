@@ -702,6 +702,47 @@ const data = {
                     trackName: "Тема с вариациями",
                     description: "Москва, ЦМШ январь 2019"
                 }
+            },
+            {
+                url: "https://www.youtube.com/embed/mAVM5qwed8A",
+                en: {
+                    label: "",
+                    trackName: "Soul of SENAR",
+                    description: `Edited and Filmed by IVAN PROSKURYAKOV
+                    Produced by ArtDIALOG`
+                },
+                ru: {
+                    label: "",
+                    trackName: "Soul of SENAR",
+                    description: `Режиссёр и оператор ИВАН ПРСКУРЯКОВ
+                    Produced by ArtDIALOG`
+                }
+            },
+            {
+                url: "https://youtu.be/eSjPWElU4Dc?list=RDfkYpvDxGo-U",
+                en: {
+                    label: "P.I.Tchaikovsky",
+                    trackName: "Theme & Variations",
+                    description: ""
+                },
+                ru: {
+                    label: "П.И.Чайковский",
+                    trackName: "Тема с вариациями",
+                    description: "Москва, ЦМШ январь 2019"
+                }
+            },
+            {
+                url: "https://youtu.be/eSjPWElU4Dc?list=RDfkYpvDxGo-U",
+                en: {
+                    label: "P.I.Tchaikovsky",
+                    trackName: "Theme & Variations",
+                    description: ""
+                },
+                ru: {
+                    label: "П.И.Чайковский",
+                    trackName: "Тема с вариациями",
+                    description: "Москва, ЦМШ январь 2019"
+                }
             }
         ]
     },
