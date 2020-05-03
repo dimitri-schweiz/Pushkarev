@@ -656,23 +656,14 @@ const data = {
     video: {
         youtube_chanel_links: [
             {
-                url: "https://youtube.com/",
+                url: "https://www.youtube.com/user/kutandr/videos",
                 en: {
-                    title: "Visit my Youtube Chanel333"
+                    title: "More Videos on my YouTube Chanel"
                 },
                 ru: {
-                    title: "Мой Youtube канал"
+                    title: "Больше видео на моём канале в YouTube"
                 }
             },
-            {
-                url: "https://youtube.com/",
-                en: {
-                    title: "Visit my Youtube Chanel 2"
-                },
-                ru: {
-                    title: "Мой Youtube канал 2"
-                }
-            }
         ],
         tracks: [
             {
@@ -1062,7 +1053,7 @@ const data = {
             }
         },
         bioItems: [
-            /*  {
+            {
                  en: "Origin:  San Francisco, CA",
                  ru: "Origin:  San Francisco, CA"
              },
@@ -1081,10 +1072,10 @@ const data = {
              {
                  en: "Website:  Wix.com",
                  ru: "Website:  Wix.com"
-             }, */
+             },
         ],
         riderItems: [
-            /* {
+            {
                 en: {
                     fileName: "rider_1.pdf",
                     buttonText: "Download",
@@ -1119,10 +1110,10 @@ const data = {
                     buttonText: "Cкачать",
                     text: "Hospitality Rider"
                 }
-            }, */
+            },
         ],
         representationItems: [
-            /* {
+            {
                 en: {
                     label: "Label:",
                     text: "Wix Records, Jake Coldham | info@mysite.com"
@@ -1161,7 +1152,7 @@ const data = {
                     label: "PR:",
                     text: "That Girl Pr, Sarah Brookstone | info@mysite.com"
                 }
-            } */
+            } 
         ]
     },
     hiResImages: {

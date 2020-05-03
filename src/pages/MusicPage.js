@@ -41,10 +41,14 @@ function MusicTrack(props) {
             <div className="video-info">
                 <div className="video-title">
                     <span className="label">{track[currentLang] && track[currentLang].label}</span>
-                    <span className="track-name">{track[currentLang] && track[currentLang].trackName}</span>
+                    {track[currentLang] && track[currentLang].description &&
+                    <div dangerouslySetInnerHTML={{ __html: track[currentLang].trackName }} />
+                    }
                 </div>
                 <div className="video-description">
-                    {track[currentLang] && track[currentLang].description}
+                {track[currentLang] && track[currentLang].description &&
+                    <div dangerouslySetInnerHTML={{ __html: track[currentLang].description }} />
+                }
                 </div>
             </div>
         </div>
@@ -95,7 +99,7 @@ function MusicPage() {
                         ))}
                     </div>
                 </div>
-                <div className="audio-player-block">
+               {/*  <div className="audio-player-block">
                     <h2 className="title">
                         {t("music_page.audio_title")}
                     </h2>
@@ -105,7 +109,7 @@ function MusicPage() {
                     <div className="audio-subtitle">
                         {music.albumTitle[currentLang]}
                     </div>
-                </div>
+                </div>*/}
             </div>
         </>
     );
