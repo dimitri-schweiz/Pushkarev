@@ -207,7 +207,7 @@ h2 {
     }
 
     .quote-author {
-        font-size: (18/ 16) + rem;
+        font-size: (16/ 16) + rem;
         font-weight: 300;
         color: $text-color-secondary;
         text-align: right;
@@ -260,7 +260,7 @@ h2 {
         margin: 24px 0;
 
         &:first-child {
-            margin-top: 0;
+            margin-top: 20px;
         }
 
         .react-player {
@@ -273,9 +273,8 @@ h2 {
     .video-info {
         display: flex;
         justify-content: space-between;
-        padding: 15px 0 45px;
+        padding: 15px 0 20px 0;
         white-space: pre-line;
-        border-bottom: 1px solid #979797;
     }
 
     .video-title {
@@ -301,9 +300,11 @@ h2 {
 
     .youtube-link {
         margin: 8px 0;
+        font-size: 30px;
 
         svg {
-            margin-right: 10px;
+            margin-right: 50px;
+            font-size: 48px;
         }
     }
 }

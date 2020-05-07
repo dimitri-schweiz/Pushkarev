@@ -1,11 +1,11 @@
 const data = {
     social: {
         links: {
-            facebook: "https://www.facebook.com/andrei.pushkarev",
             twitter: "",
             youtube: "",
             instagram: "",
             vk: "",
+            facebook: "https://www.facebook.com/andrei.pushkarev",
         }
     },
     gallery: [
@@ -27,8 +27,8 @@ const data = {
                 description: ""
             },
             ru: {
-                title: "Название",
-                description: "Или любой другой текст"
+                title: "",
+                description: ""
             }
         },
         {
@@ -38,7 +38,7 @@ const data = {
                 description: ""
             },
             ru: {
-                title: "название",
+                title: "",
                 description: ""
             }
         },
@@ -49,7 +49,7 @@ const data = {
                 description: ""
             },
             ru: {
-                title: "название",
+                title: "",
                 description: ""
             }
         },
@@ -60,7 +60,7 @@ const data = {
                 description: ""
             },
             ru: {
-                title: "Другое название",
+                title: "",
                 description: ""
             }
         },
@@ -71,7 +71,7 @@ const data = {
                 description: ""
             },
             ru: {
-                title: "Другое название",
+                title: "",
                 description: ""
             }
         },
@@ -82,7 +82,7 @@ const data = {
                 description: ""
             },
             ru: {
-                title: "Другое название",
+                title: "",
                 description: ""
             }
         },
@@ -93,7 +93,7 @@ const data = {
                 description: ""
             },
             ru: {
-                title: "Другое название",
+                title: "",
                 description: ""
             }
         },
@@ -104,7 +104,7 @@ const data = {
                 description: ""
             },
             ru: {
-                title: "Другое название",
+                title: "",
                 description: ""
             }
         },
@@ -115,7 +115,7 @@ const data = {
                 description: ""
             },
             ru: {
-                title: "Другое название",
+                title: "",
                 description: ""
             }
         },
@@ -126,8 +126,8 @@ const data = {
                 description: ""
             },
             ru: {
-                title: "Другое название",
-                description: "Иногда приходится кланяться"
+                title: "",
+                description: ""
             }
         },
         {
@@ -137,7 +137,7 @@ const data = {
                 description: ""
             },
             ru: {
-                title: "Другое название",
+                title: "",
                 description: ""
             }
         },
@@ -148,29 +148,7 @@ const data = {
                 description: ""
             },
             ru: {
-                title: "Другое название",
-                description: ""
-            }
-        },
-        {
-            fileName: "00014.jpg",
-            en: {
                 title: "",
-                description: ""
-            },
-            ru: {
-                title: "Другое название",
-                description: ""
-            }
-        },
-        {
-            fileName: "00015.jpg",
-            en: {
-                title: "",
-                description: ""
-            },
-            ru: {
-                title: "Другое название",
                 description: ""
             }
         },
@@ -181,7 +159,7 @@ const data = {
                 description: ""
             },
             ru: {
-                title: "Другое название",
+                title: "",
                 description: ""
             }
         },
@@ -192,7 +170,7 @@ const data = {
                 description: ""
             },
             ru: {
-                title: "Другое название",
+                title: "",
                 description: ""
             }
         },
@@ -203,7 +181,7 @@ const data = {
                 description: ""
             },
             ru: {
-                title: "Другое название",
+                title: "",
                 description: ""
             }
         },
@@ -214,7 +192,7 @@ const data = {
                 description: ""
             },
             ru: {
-                title: "Другое название",
+                title: "",
                 description: ""
             }
         },
@@ -225,7 +203,7 @@ const data = {
                 description: ""
             },
             ru: {
-                title: "Другое название",
+                title: "",
                 description: ""
             }
         },
@@ -236,7 +214,7 @@ const data = {
                 description: ""
             },
             ru: {
-                title: "Другое название",
+                title: "",
                 description: ""
             }
         },
@@ -247,21 +225,11 @@ const data = {
                 description: ""
             },
             ru: {
-                title: "Другое название",
-                description: ""
-            }
-        },
-        {
-            fileName: "00023.jpg",
-            en: {
                 title: "",
                 description: ""
-            },
-            ru: {
-                title: "Другое название",
-                description: ""
             }
         },
+        
         {
             fileName: "00024.jpg",
             en: {
@@ -269,7 +237,7 @@ const data = {
                 description: ""
             },
             ru: {
-                title: "Другое название",
+                title: "",
                 description: ""
             }
         },
@@ -280,7 +248,7 @@ const data = {
                 description: ""
             },
             ru: {
-                title: "Другое название",
+                title: "",
                 description: ""
             }
         },
@@ -291,7 +259,7 @@ const data = {
                 description: ""
             },
             ru: {
-                title: "Другое название",
+                title: "",
                 description: ""
             }
         },
@@ -302,7 +270,7 @@ const data = {
                 description: ""
             },
             ru: {
-                title: "Другое название",
+                title: "",
                 description: ""
             }
         },
@@ -313,7 +281,7 @@ const data = {
                 description: ""
             },
             ru: {
-                title: "Другое название",
+                title: "",
                 description: ""
             }
         },
@@ -324,7 +292,7 @@ const data = {
                 description: ""
             },
             ru: {
-                title: "Другое название",
+                title: "",
                 description: ""
             }
         },
@@ -335,7 +303,7 @@ const data = {
                 description: ""
             },
             ru: {
-                title: "Другое название",
+                title: "",
                 description: ""
             }
         },
@@ -346,249 +314,7 @@ const data = {
                 description: ""
             },
             ru: {
-                title: "Другое название",
-                description: ""
-            }
-        },
-        {
-            fileName: "00032.jpg",
-            en: {
                 title: "",
-                description: ""
-            },
-            ru: {
-                title: "Другое название",
-                description: ""
-            }
-        },
-        {
-            fileName: "00033.jpg",
-            en: {
-                title: "",
-                description: ""
-            },
-            ru: {
-                title: "Другое название",
-                description: ""
-            }
-        },
-        {
-            fileName: "00034.jpg",
-            en: {
-                title: "",
-                description: ""
-            },
-            ru: {
-                title: "Другое название",
-                description: ""
-            }
-        },
-        {
-            fileName: "00036.jpg",
-            en: {
-                title: "",
-                description: ""
-            },
-            ru: {
-                title: "Другое название",
-                description: ""
-            }
-        },
-        {
-            fileName: "0006.jpg",
-            en: {
-                title: "",
-                description: ""
-            },
-            ru: {
-                title: "Тут можно вписать название",
-                description: "А тут описание"
-            }
-        },
-        {
-            fileName: "0002.jpg",
-            en: {
-                title: "",
-                description: ""
-            },
-            ru: {
-                title: "Название",
-                description: "Или любой другой текст"
-            }
-        },
-        {
-            fileName: "0003.jpg",
-            en: {
-                title: "",
-                description: ""
-            },
-            ru: {
-                title: "название",
-                description: ""
-            }
-        },
-        {
-            fileName: "0004.jpg",
-            en: {
-                title: "",
-                description: ""
-            },
-            ru: {
-                title: "название",
-                description: ""
-            }
-        },
-        {
-            fileName: "0005.jpg",
-            en: {
-                title: "",
-                description: ""
-            },
-            ru: {
-                title: "Другое название",
-                description: ""
-            }
-        },
-        {
-            fileName: "0001.jpg",
-            en: {
-                title: "",
-                description: ""
-            },
-            ru: {
-                title: "Другое название",
-                description: ""
-            }
-        },
-        {
-            fileName: "0007.jpg",
-            en: {
-                title: "",
-                description: ""
-            },
-            ru: {
-                title: "Другое название",
-                description: ""
-            }
-        },
-        {
-            fileName: "0008.jpg",
-            en: {
-                title: "",
-                description: ""
-            },
-            ru: {
-                title: "Другое название",
-                description: ""
-            }
-        },
-        {
-            fileName: "0009.jpg",
-            en: {
-                title: "",
-                description: ""
-            },
-            ru: {
-                title: "Другое название",
-                description: ""
-            }
-        },
-        {
-            fileName: "0010.jpg",
-            en: {
-                title: "",
-                description: ""
-            },
-            ru: {
-                title: "Другое название",
-                description: ""
-            }
-        },
-        {
-            fileName: "0011.jpg",
-            en: {
-                title: "",
-                description: ""
-            },
-            ru: {
-                title: "Другое название",
-                description: "Иногда приходится кланяться"
-            }
-        },
-        {
-            fileName: "0012.jpg",
-            en: {
-                title: "",
-                description: ""
-            },
-            ru: {
-                title: "Другое название",
-                description: ""
-            }
-        },
-        {
-            fileName: "0013.jpg",
-            en: {
-                title: "",
-                description: ""
-            },
-            ru: {
-                title: "Другое название",
-                description: ""
-            }
-        },
-        {
-            fileName: "0014.jpg",
-            en: {
-                title: "",
-                description: ""
-            },
-            ru: {
-                title: "Другое название",
-                description: ""
-            }
-        },
-        {
-            fileName: "0015.jpg",
-            en: {
-                title: "",
-                description: ""
-            },
-            ru: {
-                title: "Другое название",
-                description: ""
-            }
-        },
-        {
-            fileName: "0016.jpg",
-            en: {
-                title: "",
-                description: ""
-            },
-            ru: {
-                title: "Другое название",
-                description: ""
-            }
-        },
-        {
-            fileName: "0017.jpg",
-            en: {
-                title: "",
-                description: ""
-            },
-            ru: {
-                title: "Другое название",
-                description: ""
-            }
-        },
-        {
-            fileName: "0018.jpg",
-            en: {
-                title: "",
-                description: ""
-            },
-            ru: {
-                title: "Другое название",
                 description: ""
             }
         },
@@ -1167,13 +893,28 @@ const data = {
                 alt: ""
             },
             {
-                previewfileName: "00002.jpg",
-                fileName: "HD00002.jpg",
+                previewfileName: "00006.jpg",
+                fileName: "HD00006.jpg",
                 alt: ""
             },
             {
                 previewfileName: "00003.jpg",
                 fileName: "HD00003.jpg",
+                alt: ""
+            },
+            {
+                previewfileName: "00002.jpg",
+                fileName: "HD00002.jpg",
+                alt: ""
+            },
+            {
+                previewfileName: "00005.jpg",
+                fileName: "HD00005.jpg",
+                alt: ""
+            },
+            {
+                previewfileName: "00004.jpg",
+                fileName: "HD00004.jpg",
                 alt: ""
             },
         ]
