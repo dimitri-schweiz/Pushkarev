@@ -8,6 +8,14 @@ const data = {
             facebook: "https://www.facebook.com/andrei.pushkarev",
         }
     },
+    footer: {
+        en: {
+            text: '©2020 <a href="http://agency.artdialog.ch/en" target="_blank" rel="noopener noreferrer">ArtDialog Agency</a>'
+        },
+        ru: {
+            text: '©2020 <a href="http://agency.artdialog.ch/en" rel="noopener noreferrer">ArtDialog Agency</a>'
+        },
+    },
     gallery: [
         {
             fileName: "00001.jpg",
