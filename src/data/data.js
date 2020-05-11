@@ -8,6 +8,14 @@ const data = {
             vk: "",
         }
     },
+    footer: {
+        en: {
+            text: '©2020 <a href="https://" target="_blank" rel="noopener noreferrer">ArtDialog Agency</a>'
+        },
+        ru: {
+            text: '©2020 <a href="https://" target="_blank" rel="noopener noreferrer">ArtDialog Agency</a>'
+        },
+    },
     gallery: [
         {
             fileName: "00001.jpg",

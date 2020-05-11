@@ -38,7 +38,7 @@ header {
 footer {
     padding: 15px 0;
     text-align: left;
-    color: #000;
+    color: $text-color;
     font-size: (12 / 16) + rem;
     @include respond(sm) {
         font-size: (16 / 16) + rem;

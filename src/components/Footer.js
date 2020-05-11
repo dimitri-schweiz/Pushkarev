@@ -1,16 +1,19 @@
 import React from "react";
 import { useTranslation } from "react-i18next";
 
+import data from "../data";
+
 function Footer() {
-    const { t } = useTranslation();
-    const year = new Date().getFullYear();
+    const { i18n } = useTranslation();
+    const currentLang = i18n.languages[0];
+    const { footer } = data;
 
     return (
         <footer className="text-center">
             <div className="container">
-                <div className="footer-content content">
-                    © {year} by {t("base.footer.artist_name")}
-                </div>
+                {footer[currentLang].text &&
+                    <span className="footer-content content" dangerouslySetInnerHTML={{ __html: footer[currentLang].text }}></span>
+                }
             </div>
         </footer>
     );
