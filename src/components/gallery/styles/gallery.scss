@@ -20,7 +20,6 @@
         top: 30px;
         right: 35px;
         cursor: pointer;
-
         @include respond(sm) {
             display: none;
         }
@@ -36,7 +35,6 @@
         @include arrow(12px, 2px, 2px, 20px);
         display: none;
         margin: 7px 0 0 30px;
-
         @include respond(sm) {
             display: block;
         }
@@ -47,10 +45,7 @@
         flex-wrap: wrap;
         width: 100%;
         height: 100%;
-
-        @include respond(sm) {
-            height: initial;
-        }
+        align-content: center;
     }
 
     .fullscreen-image-side {
@@ -59,13 +54,11 @@
         justify-content: space-between;
         align-items: center;
         height: 100%;
-
         @include respond(sm) {
             position: relative;
             flex: 0 0 100%;
             order: 0;
             height: min-content;
-            margin-top: 60px;
             padding: 0 25px;
         }
     }
@@ -74,7 +67,6 @@
         display: flex;
         align-items: center;
         height: 100%;
-
         @include respond(sm) {
             flex: 1 1 100%;
             order: 0;
@@ -85,8 +77,6 @@
         flex: 0 0 100%;
         padding: 10px 40px 0 0;
         text-align: center;
-        
-
         @include respond(sm) {
             flex: 0 0 100%;
             order: 1;
@@ -95,11 +85,11 @@
 
         .title {
             font-size: (22 / 16) + rem;
-            color: #E6E6E6;
+            color: #e6e6e6;
             font-weight: 600;
             margin-bottom: 16px;
-                
-    }} 
+        }
+    }
 
     .btn {
         display: flex;
@@ -109,7 +99,6 @@
         cursor: pointer;
         -webkit-tap-highlight-color: rgba(255, 255, 255, 0.1);
         filter: brightness(0) invert(1);
-
         @include respond(sm) {
             position: absolute;
             height: 100%;
@@ -118,7 +107,6 @@
 
         img {
             width: 1.75rem;
-
             @include respond(sm) {
                 width: 40px;
                 opacity: 0.5;
@@ -130,6 +118,7 @@
         @include respond(sm) {
             left: 25px;
             justify-content: flex-start;
+            opacity: 1;
         }
     }
 
@@ -137,6 +126,7 @@
         @include respond(sm) {
             right: 25px;
             justify-content: flex-end;
+            opacity: 1;
         }
     }
 
@@ -152,10 +142,20 @@
 }
 
 .gallery-item {
+    max-width: 33%;
+    padding: 5px;
     cursor: pointer;
     overflow: hidden;
     opacity: 1;
     transition: opacity 0.2s ease-out;
+
+    @include respond(md) {
+        max-width: 50%;
+    }
+
+    @include respond(sm) {
+        max-width: 50%;
+    }
 
     &:hover {
         opacity: 0.5;
@@ -164,8 +164,10 @@
 
 .gallery-masonry-grid {
     display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
     margin-left: -10px;
-    width: auto;
+    width: 100%;
     border-bottom: 1px solid #979797;
 }
 

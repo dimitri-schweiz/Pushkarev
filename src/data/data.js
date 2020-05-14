@@ -8,6 +8,14 @@ const data = {
             facebook: "https://www.facebook.com/andrei.pushkarev",
         }
     },
+    footer: {
+        en: {
+            text: '©2020 <a href="https://" target="_blank" rel="noopener noreferrer">ArtDialog Agency</a>'
+        },
+        ru: {
+            text: '©2020 <a href="https://" target="_blank" rel="noopener noreferrer">ArtDialog Agency</a>'
+        },
+    },
     gallery: [
         {
             fileName: "00001.jpg",
@@ -229,7 +237,6 @@ const data = {
                 description: ""
             }
         },
-        
         {
             fileName: "00024.jpg",
             en: {
@@ -780,25 +787,25 @@ const data = {
         },
         bioItems: [
             {
-                 en: "Origin:  San Francisco, CA",
-                 ru: "Origin:  San Francisco, CA"
-             },
-             {
-                 en: "Genres:  Folk pop",
-                 ru: "Genres:  Folk pop"
-             },
-             {
-                 en: "Years Active:  2012- Present",
-                 ru: "Years Active:  2012- Present"
-             },
-             {
-                 en: "Label:  Wix Records",
-                 ru: "Label:  Wix Records"
-             },
-             {
-                 en: "Website:  Wix.com",
-                 ru: "Website:  Wix.com"
-             },
+                en: "Origin:  San Francisco, CA",
+                ru: "Origin:  San Francisco, CA"
+            },
+            {
+                en: "Genres:  Folk pop",
+                ru: "Genres:  Folk pop"
+            },
+            {
+                en: "Years Active:  2012- Present",
+                ru: "Years Active:  2012- Present"
+            },
+            {
+                en: "Label:  Wix Records",
+                ru: "Label:  Wix Records"
+            },
+            {
+                en: "Website:  Wix.com",
+                ru: "Website:  Wix.com"
+            },
         ],
         riderItems: [
             {
@@ -878,7 +885,7 @@ const data = {
                     label: "PR:",
                     text: "That Girl Pr, Sarah Brookstone | info@mysite.com"
                 }
-            } 
+            }
         ]
     },
     hiResImages: {
