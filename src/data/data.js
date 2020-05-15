@@ -10,10 +10,17 @@ const data = {
     },
     footer: {
         en: {
+<<<<<<< HEAD
             text: '©2020 <a href="http://agency.artdialog.ch/en" target="_blank" rel="noopener noreferrer">ArtDialog Agency</a>'
         },
         ru: {
             text: '©2020 <a href="http://agency.artdialog.ch/en" rel="noopener noreferrer">ArtDialog Agency</a>'
+=======
+            text: '©2020 <a href="https://" target="_blank" rel="noopener noreferrer">ArtDialog Agency</a>'
+        },
+        ru: {
+            text: '©2020 <a href="https://" target="_blank" rel="noopener noreferrer">ArtDialog Agency</a>'
+>>>>>>> 176748f48abc73ea3a16dd10e615d76d74bfa7f0
         },
     },
     gallery: [
@@ -237,7 +244,6 @@ const data = {
                 description: ""
             }
         },
-        
         {
             fileName: "00024.jpg",
             en: {
@@ -788,25 +794,25 @@ const data = {
         },
         bioItems: [
             {
-                 en: "Origin:  San Francisco, CA",
-                 ru: "Origin:  San Francisco, CA"
-             },
-             {
-                 en: "Genres:  Folk pop",
-                 ru: "Genres:  Folk pop"
-             },
-             {
-                 en: "Years Active:  2012- Present",
-                 ru: "Years Active:  2012- Present"
-             },
-             {
-                 en: "Label:  Wix Records",
-                 ru: "Label:  Wix Records"
-             },
-             {
-                 en: "Website:  Wix.com",
-                 ru: "Website:  Wix.com"
-             },
+                en: "Origin:  San Francisco, CA",
+                ru: "Origin:  San Francisco, CA"
+            },
+            {
+                en: "Genres:  Folk pop",
+                ru: "Genres:  Folk pop"
+            },
+            {
+                en: "Years Active:  2012- Present",
+                ru: "Years Active:  2012- Present"
+            },
+            {
+                en: "Label:  Wix Records",
+                ru: "Label:  Wix Records"
+            },
+            {
+                en: "Website:  Wix.com",
+                ru: "Website:  Wix.com"
+            },
         ],
         riderItems: [
             {
@@ -886,7 +892,7 @@ const data = {
                     label: "PR:",
                     text: "That Girl Pr, Sarah Brookstone | info@mysite.com"
                 }
-            } 
+            }
         ]
     },
     hiResImages: {
